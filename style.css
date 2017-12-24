@@ -1,0 +1,161 @@
+*{
+	margin:opx auto;
+	padding:0px;
+}
+body{
+    margin:0px auto;
+    padding:0px;
+    min-width: 800px;
+    width:86%;
+    font-size: 12px;
+}
+.trOver{
+    background-color: #DCDCDC;
+    cursor:pointer;
+    
+}
+.trOut{
+    background-color: #FFFFFF;
+}
+#login{
+	text-align:left;
+	left: 50%;
+	top:30%;
+	margin-left: -100px; /* A metade de sua largura. */
+	position: absolute;
+	width: 200px; /* O valor que você desejar. */
+}
+#membros{
+    width: 100%;
+}
+#listaMembros div{
+    position: initial;
+}
+#Aniversario{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+#Aniversario td{
+    height: 15px;
+    font-size: 14px;
+}
+#mes{
+    font-size: 20px;
+}
+#opcoes{
+    text-align: left;
+    float: right;
+    border-left: 1px solid #c0c0c0;
+}
+#opcoes1{
+    text-align: left;
+    float: right;
+    top: 5px;
+    right: 5px;
+    border: none;
+}
+#tabela{
+	overflow-y: auto; 
+	overflow-x: hidden;
+	width: 99%; 
+	max-height: 150px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #CCC;
+        padding: 5px;
+}
+hr{
+    color: #333;
+}
+#Botoes input{
+    margin-top: 35px;
+    width: 90px;
+    height: 50px;
+}
+#Delet{
+    float: right;
+    position: absolute;
+    z-index: 150;
+    right: 7.5%;
+}
+.menu{
+    list-style:none; 
+    border:1px solid #c0c0c0; 
+    float:left; 
+    width: 100%;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu li{
+    position: relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+}
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background:#333; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+.menu li  ul{
+position:absolute; 
+top:24px; 
+left:0;
+background-color:#fff; 
+display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+#result{
+    display: block;
+    border: 2px #333 solid;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    z-index: 1000;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+#fechar{
+    text-align: right;
+    position: fixed;
+    margin-left: 140px;
+    margin-top: 10px;
+    
+}
+#resultado{
+    text-align: center;
+    margin-top: 20%;
+    
+}
